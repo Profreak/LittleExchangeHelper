@@ -1,0 +1,109 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:theme="@android:style/Theme.NoTitleBar"
+    tools:context=".LittleExchangeHelperActivity" >
+
+    <ImageView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="20dp"
+        android:contentDescription="@string/equal"
+        android:src="@drawable/title" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/title" >
+
+        <Button
+            android:id="@+id/paste"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/value1"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/value1"
+            android:text="@string/paste" />
+
+        <EditText
+            android:id="@+id/value1"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <Spinner
+            android:id="@+id/currency1"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/value1"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/value1" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/equal"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/relativeLayout1"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/equal"
+        android:src="@drawable/equal" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/equal" >
+
+        <EditText
+            android:id="@+id/value2"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <Button
+            android:id="@+id/copy"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/value2"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/value2"
+            android:text="@string/copy" />
+
+        <Spinner
+            android:id="@+id/currency2"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/value2"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/value2" />
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/helpSwitcher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/help"
+        android:src="@drawable/help"
+        android:contentDescription="@string/des_help" />
+
+</RelativeLayout>

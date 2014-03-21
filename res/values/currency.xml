@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="currency">
+    <item name="EUR">EUR - Euro</item>
+    <item name="USD">USD - US Dollar</item>
+    <item name="GBP">GBP - Britisches Pfund</item>
+    <item name="JPY">JPY - Japanischer Yen</item>
+    <item name="AUD">AUD - Australischer Dollar</item>
+    <item name="CHF">CHF - Schweizer Franken</item>
+    <item name="CAD">CAD - Kanadischer Dollar</item>
+    <item name="CNY">CNY - Chinesischer Renminbi </item>
+    <item name="RUB">RUB - Russischer Rubel</item>
+    </string-array>
+</resources>

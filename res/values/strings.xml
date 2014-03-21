@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LittleExchangeHelper</string>
+    <string name="title">Little Exchange Helper</string>
+    <string name="action_settings">Settings</string>
+    <string name="paste">paste</string>
+    <string name="copy">copy</string>
+    <string name="des_help">show Help</string>
+</resources>
