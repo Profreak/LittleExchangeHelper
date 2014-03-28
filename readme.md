@@ -5,7 +5,8 @@ Diese kleine app soll helfen schnell eine Währung in eine andere um zurechnen.
 
 Merkmale
 - Umrechnung von und in die wichtigsten Währungen. (USD, GPB, EUR ...)
-- Schnelles Kopieren und Einfügen von Komma-Zahlen aus und in den Zwischenspeicher
+- Schnelles Kopieren von Gleitkommazahlen aus dem Zwischenspeicher
+- Schnelles Einfügen von Gleitkommazahlen in dem Zwischenspeicher
 
 ==============
 Hier kann die aktuelle lauffähige Version des "Little Exchange Helper" gedownloadet werden.
